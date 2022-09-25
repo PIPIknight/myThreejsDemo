@@ -39,8 +39,6 @@ export default {
         title,
       };
     });
-
-    console.log(routeList);
     return {
       routeList,
     };
@@ -62,7 +60,7 @@ export default {
   .app-main-right {
     height: 100%;
     margin-left: 20vw;
-    background-color: lime;
+    background-color: #e9e9eb;
     padding: 20px;
   }
 }

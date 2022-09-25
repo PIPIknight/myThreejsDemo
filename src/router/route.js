@@ -16,7 +16,7 @@ export const routes = [
     name: "TransformObj",
     component: () => import("@/views/transformObj.vue"),
     meta: {
-      title: "物体定位",
+      title: "物体移动",
     },
   },
 ];
