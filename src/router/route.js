@@ -19,4 +19,12 @@ export const routes = [
       title: "物体移动",
     },
   },
+  {
+    path: "/animateCramera",
+    name: "AnimateCramera",
+    component: () => import("@/views/animateCamera.vue"),
+    meta: {
+      title: "动画与帧刷新",
+    },
+  },
 ];
