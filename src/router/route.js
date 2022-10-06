@@ -20,11 +20,19 @@ export const routes = [
     },
   },
   {
-    path: "/animateCramera",
-    name: "AnimateCramera",
+    path: "/animateCamera",
+    name: "AnimateCamera",
     component: () => import("@/views/animateCamera.vue"),
     meta: {
       title: "动画与帧刷新",
+    },
+  },
+  {
+    path: "/cameras",
+    name: "cameras",
+    component: () => import("@/views/cameras.vue"),
+    meta: {
+      title: "摄像机",
     },
   },
 ];
