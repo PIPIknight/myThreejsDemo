@@ -29,10 +29,18 @@ export const routes = [
   },
   {
     path: "/cameras",
-    name: "cameras",
+    name: "Cameras",
     component: () => import("@/views/cameras.vue"),
     meta: {
       title: "摄像机",
+    },
+  },
+  {
+    path: "/fullscreenResizing",
+    name: "FullscreenResizing",
+    component: () => import("@/views/fullscreenResizing.vue"),
+    meta: {
+      title: "全屏/尺寸/像素调整",
     },
   },
 ];
