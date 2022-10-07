@@ -1,5 +1,5 @@
 <template>
-  <div ref="outer" id="" class="">
+  <div ref="outer" id="outer" class="outer">
     <div class="content">
       <div class="text">123</div>
     </div>
@@ -10,6 +10,7 @@
 <script>
 import * as THREE from "three";
 import { ref, onMounted, reactive } from "vue";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 export default {
   name: "",
   setup() {

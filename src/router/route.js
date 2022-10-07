@@ -36,11 +36,11 @@ export const routes = [
     },
   },
   {
-    path: "/fullscreenResizing",
-    name: "FullscreenResizing",
-    component: () => import("@/views/fullscreenResizing.vue"),
+    path: "/geometry",
+    name: "Geometry",
+    component: () => import("@/views/geometry.vue"),
     meta: {
-      title: "全屏/尺寸/像素调整",
+      title: "几何体样例",
     },
   },
 ];
