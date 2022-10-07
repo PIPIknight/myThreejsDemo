@@ -43,4 +43,12 @@ export const routes = [
       title: "几何体样例",
     },
   },
+  {
+    path: "/gui",
+    name: "GUI",
+    component: () => import("@/views/gui.vue"),
+    meta: {
+      title: "GUI的基本使用",
+    },
+  },
 ];
