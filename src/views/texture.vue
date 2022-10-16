@@ -51,7 +51,7 @@ import { ref, onMounted, reactive } from "vue";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import * as dat from "lil-gui";
 export default {
-  name: "",
+  name: "Texture",
   setup() {
     // ————————————————————————————————————————————————————————————————————————————
     // Canvas

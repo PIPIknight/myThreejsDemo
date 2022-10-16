@@ -68,7 +68,7 @@ import * as THREE from "three";
 import { ref, onMounted, reactive } from "vue";
 import gsap from "gsap";
 export default {
-  name: "",
+  name: "AnimateCamera",
   setup() {
     // ————————————————————————————————————————————————————————————————————————————
     // Canvas

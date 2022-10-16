@@ -11,7 +11,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import gsap from "gsap";
 import * as dat from "lil-gui";
 export default {
-  name: "",
+  name: "Gui",
   setup() {
     // ————————————————————————————————————————————————————————————————————————————
     // Canvas

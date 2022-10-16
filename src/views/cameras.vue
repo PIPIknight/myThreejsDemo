@@ -49,7 +49,7 @@ import * as THREE from "three";
 import { ref, onMounted, reactive } from "vue";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 export default {
-  name: "",
+  name: "Cameras",
   setup() {
     // ————————————————————————————————————————————————————————————————————————————
     // Canvas

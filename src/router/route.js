@@ -56,7 +56,15 @@ export const routes = [
     name: "Texture",
     component: () => import("@/views/texture.vue"),
     meta: {
-      title: "材质的设置",
+      title: "纹理的设置",
+    },
+  },
+  {
+    path: "/materials",
+    name: "Materials",
+    component: () => import("@/views/materials.vue"),
+    meta: {
+      title: "材料设置与展示",
     },
   },
 ];
