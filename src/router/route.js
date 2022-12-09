@@ -75,4 +75,12 @@ export const routes = [
       title: "3D文字",
     },
   },
+  {
+    path: "/lights",
+    name: "lights",
+    component: () => import("@/views/lights.vue"),
+    meta: {
+      title: "灯光效果",
+    },
+  },
 ];
