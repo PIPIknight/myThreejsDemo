@@ -67,4 +67,12 @@ export const routes = [
       title: "材料设置与展示",
     },
   },
+  {
+    path: "/3dtext",
+    name: "3DText",
+    component: () => import("@/views/3DText.vue"),
+    meta: {
+      title: "3D文字",
+    },
+  },
 ];
