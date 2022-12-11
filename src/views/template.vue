@@ -9,9 +9,9 @@
 
 <script>
 import * as THREE from "three";
-import { ref, onMounted, reactive } from "vue";
+import { ref, onMounted, reactive, defineComponent } from "vue";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-export default {
+export default defineComponent({
   name: "",
   setup() {
     // ————————————————————————————————————————————————————————————————————————————
@@ -94,7 +94,7 @@ export default {
       outer,
     };
   },
-};
+});
 </script>
 
 <style lang="scss" scoped>

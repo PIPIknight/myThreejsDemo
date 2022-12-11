@@ -83,4 +83,20 @@ export const routes = [
       title: "灯光效果",
     },
   },
+  {
+    path: "/shadows",
+    name: "shadows",
+    component: () => import("@/views/shadows.vue"),
+    meta: {
+      title: "阴影效果",
+    },
+  },
+  {
+    path: "/particles",
+    name: "particles",
+    component: () => import("@/views/particles.vue"),
+    meta: {
+      title: "粒子效果",
+    },
+  },
 ];
