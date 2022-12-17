@@ -107,4 +107,12 @@ export const routes = [
       title: "小银河",
     },
   },
+  {
+    path: "/raycaster",
+    name: "raycaster",
+    component: () => import("@/views/raycaster.vue"),
+    meta: {
+      title: "光线投射",
+    },
+  },
 ];
