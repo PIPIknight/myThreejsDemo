@@ -99,4 +99,12 @@ export const routes = [
       title: "粒子效果",
     },
   },
+  {
+    path: "/galaxy",
+    name: "galaxy",
+    component: () => import("@/views/galaxy.vue"),
+    meta: {
+      title: "小银河",
+    },
+  },
 ];
