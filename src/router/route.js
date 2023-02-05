@@ -115,4 +115,12 @@ export const routes = [
       title: "光线投射",
     },
   },
+  {
+    path: "/physics",
+    name: "physics",
+    component: () => import("@/views/physics.vue"),
+    meta: {
+      title: "物理引擎",
+    },
+  },
 ];
